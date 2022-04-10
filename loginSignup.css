@@ -1,0 +1,57 @@
+body{
+    background-image: url('/login/dog1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#box{ 
+    background-color:none;
+     /* margin-top: 100px; */
+    /* float: right; */ 
+    margin: auto;
+    width:400px;
+    height: auto;
+    padding:25px;
+    /* border-radius: 0px 80px; */
+    border: none;
+}
+input:focus{
+    background-color: rgba(104, 26, 91, 0.842);
+}
+
+#text{
+    height:25px;
+    border-radius: 50px;
+    padding:5px;
+    border:solid thin #aaa;
+    width: 100%;
+}
+label{
+    font-weight: bold;
+    color: rgb(84, 158, 24);
+}
+#button{
+    padding:10px;
+    width:80px;
+    color:white;
+    background-color:rgba(104, 26, 91, 0.842);
+    border: none;
+    border-radius:10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#button:hover{
+    background-color: yellowgreen;
+}
+
+#link{
+    text-decoration: none;
+    color: rgba(104, 26, 91, 0.842);
+    font-size:larger;
+    font-weight: bold;
+}
+#link:hover{
+    color: yellowgreen;
+}
