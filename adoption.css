@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('/adoptme/photos/cp4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+ul{
+    height: 100%;
+    background-color: rgb(199, 223, 219);
+}
+.coverphoto{
+    width: auto;
+    height: auto;
+    position: fixed;
+    margin-top: 0px;
+    opacity: 95%;
+}
+
+/* Navbar ko size width haru */
+#sidebar{
+    border-right: 2px black solid;
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    left: -17%;
+    
+}
+
+/* Adopt Learn Shelter ko button ko css */
+#btn{
+    color:rgb(105, 11, 194);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    width: 150px;
+
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/* Adopt button ko hover ko css START */
+.adoptbtn {
+    position: relative;
+    display: inline-block;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color:rgb(105, 11, 194);
+    width: 180px;
+    /* box-shadow: 0px 8px 16px 0px rgba(213, 209, 209, 0.2); */
+    margin-left: 111%;
+    margin-top: -45%;
+    border-radius: 3px;
+}
+.dropdown a {
+    color: white;
+    font-family: cursive;
+    font-weight: larger;
+    font-size: 20px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown a:hover {
+    background-color: white;
+    color: black;
+}
+
+.adoptbtn:hover .dropdown{
+    display: block;
+}
+/* Adopt button ko hover ko css END */
+
+/* side bar closing 3 line   */
+
+.togglebtn{
+    position: absolute;
+    left: 115%;
+    top: 18px;
+}
+.togglebtn span{
+    background-color: black;
+    display: block;
+    color: black;
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+
+}
+#sidebar.active{
+    left: 0;
+}
+
+.logo{
+    margin-left: 2%;
+    margin-top: -10%;
+    width: 160px;
+    height: 30px;
+    image-resolution: 1000dpi;
+    
+}
+
+/* .signin{
+    margin-top: 1.5%;
+    background-color: rgb(160, 13, 160);
+    color: rgb(241, 226, 226);
+    text-decoration: none;
+    position: fixed;
+    font-size: xx-large;
+    width: auto;
+    height: auto;
+    margin-left: 1400px;
+    border: 2px solid rgb(156, 55, 156);
+    border-radius: 7px;
+    padding: 2px;
+    z-index: 1;
+    
+} */
+
+#cat1{
+    position: relative;
+    width: 230px;
+    height: 230px;
+    margin-top: 20%;
+    margin-left: 3%;
+    margin-right: 20px;
+    border-radius: 9px;
+    margin-bottom: 3%;
+    
+}
+
+.animal-card{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-holder{
+    display: flex;
+    margin-top: 300px;
+}
+
+label{
+    width: fit-content;
+    height: auto;
+    background-color: purple;
+    color: rgb(252, 248, 252);
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    padding: 8px;
+    border-radius: 7px;
+    box-shadow: yellow solid 4px;
+}
+
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  #btn1{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    background-color: transparent;
+    width: 150px;
+    border-radius: 2%;
+    cursor: pointer;
+}
+#btn1 a{
+    text-decoration: none;
+    color: rgb(67, 15, 109);
+    font-size: larger;
+    font-family: cursive;
+    width: fit-content;
+    display: flex;
+}
+#btn1 a:hover{
+    background-color:white;
+    color: black;
+    width: auto;
+}
+
+  .active {
+    color: white;
+  }
+
+  /* START pet adoption ko hover */
+  .petadoption {
+    position: relative;
+    display: inline-block;
+}
+.drophover{
+    display: none;
+    position: absolute;
+    background-color:rgb(105, 11, 194);
+    width: 270px;
+    /* box-shadow: 0px 8px 16px 0px rgba(213, 209, 209, 0.2); */
+    margin-left: 109%;
+    margin-top: -38%;
+    border-radius: 3px;
+}
+#btn2 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#btn2 a:hover {
+    width: 238px;
+    background-color: white;
+    color: black;
+}
+
+.petadoption:hover .drophover{
+    display: block;
+}
+/* END */
+
+/* Dog Care ko hover part START */
+.dogcare {
+    position: relative;
+    display: inline-block;
+}
+.dogcaredrop{
+    display: none;
+    position: absolute;
+    background-color:rgb(105, 11, 194);
+    width: 270px;
+    margin-left: 155%;
+    margin-top: -60%;
+    border-radius: 3px;
+}
+#btn3 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#btn3 a:hover {
+    width: 238px;
+    color: black;
+}
+.dogcare:hover .dogcaredrop{
+    display: block;
+}
+/* Dog Care ko hover part END */
+
+/* Cat Care ko hover START */
+.catcare {
+    position: relative;
+    display: inline-block;
+}
+.catcaredrop{
+    display: none;
+    position: absolute;
+    background-color:rgb(105, 11, 194);
+    width: 270px;
+    margin-left: 162%;
+    margin-top: -60%;
+    border-radius: 3px;
+}
+#btn4 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#btn4 a:hover {
+    width: 238px;
+    background-color: white;
+    color: black;
+}
+.catcare:hover .catcaredrop{
+    display: block;
+}
+/* Cat Care ko hover END */
+.signin{
+    margin-top: 8px;
+    border: none;
+    float: right;
+    background-color:rgba(104, 26, 91, 0.842);
+    text-decoration: none;
+    color: white;
+    margin-right: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.signin:hover{
+    background-color: rgba(187, 88, 170, 0.76);
+}

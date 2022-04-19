@@ -1,0 +1,36 @@
+#allcat{
+    position: relative;
+    width: 270px;
+    height: 270px;
+    margin-top: 20%;
+    margin-left: 3%;
+    margin-right: 20px;
+    border-radius: 9px;
+    margin-bottom: 3%;
+    
+}
+.catadoptlist{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.catslist{
+    display: flex;
+    margin-top: 80px;
+}
+
+label{
+    width: fit-content;
+    height: auto;
+    background-color: purple;
+    color: rgb(252, 248, 252);
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    padding: 8px;
+    border-radius: 7px;
+    box-shadow: yellow solid 4px;
+}

@@ -1,0 +1,45 @@
+body{
+    background-image: url("/photos/edited.jpg");
+    background-size: cover;
+}
+#list{
+    background-color: transparent;
+    color: black;
+    width:150px;
+    height: 90px;
+    font-weight: bolder;
+    font-size:xx-large;
+    margin:auto;
+    margin-left: 35%;
+    margin-top: 20%;
+    border: 3px solid black;  
+    cursor: pointer;
+}
+
+#catlist{
+    background-color: transparent ;
+    color: black;
+    width:150px;
+    height: 90px;
+    font-weight: bolder;
+    font-size:xx-large;
+    margin:auto;
+    border: 3px solid black;  
+    cursor: pointer; 
+}
+
+#otherlist{
+    background-color: transparent ;
+    color: black;
+    width:150px;
+    height: 90px;
+    font-weight: bolder;
+    font-size:xx-large;
+    margin:auto;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+#list:hover{
+    background-color: blueviolet;
+}

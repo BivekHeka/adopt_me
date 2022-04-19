@@ -1,0 +1,17 @@
+body {
+    margin: 20px;
+    text-align: center;
+}
+h1 {
+    color: green;
+}
+img {
+    float: right; 
+    margin: 5px;
+    height: 300px;
+    width: 300px;
+}
+p {
+    text-align: justify;
+    font-size: 25px;
+}

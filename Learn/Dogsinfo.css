@@ -1,0 +1,17 @@
+#design{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    width:120px;
+    height:90px;
+    font-weight: bolder;
+    font-size:xx-large;
+    margin-top: 50%;
+    margin-left: 1%;
+    border: 3px solid black;  
+    align-items: center;
+}
+
+.learn{
+    margin-top: 20%;
+}
