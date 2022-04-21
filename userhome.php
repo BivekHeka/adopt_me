@@ -105,8 +105,8 @@ session_start();
                 <button id="btn">Shelter</button>
             </ul>
         </div>
-        <a href="post.php"id="post">create a post</a>
-         <a href="login.php"><button class="signin"> SIGN IN</button></a>
+        <a href="post.php"><button style="margin-top:8px;background-color:rgba(104, 26, 91, 0.842);border:none;text-decoration: none;color: white;font-size: 20px;cursor: pointer;margin-left:50%;"> Create a Post</button></a>
+        <a href="login.php"><button class="signin"> SIGN IN</button></a>
     </div>
 
 
@@ -135,15 +135,6 @@ session_start();
             });
         }
 
-    </script>
-
-    <script>
-        let image =document.getElementById('image');
-        let images=['cp1.jpg','cp2.jpg','cp4.jpg','cp5.jpg']
-        setInterval(function(){
-            let random= Math.floor(Math.random()*4);
-            img.src=images[random];
-        }, 800);
     </script>
 </body>
 

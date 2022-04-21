@@ -306,3 +306,15 @@ label{
 .signin:hover{
     background-color: rgba(187, 88, 170, 0.76);
 }
+.post{
+    margin-top: 8px;
+    border: none;
+    background-color:rgba(104, 26, 91, 0.842);
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.post:hover{
+    background-color: rgba(187, 88, 170, 0.76);
+}
